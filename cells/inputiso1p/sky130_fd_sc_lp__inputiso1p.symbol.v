@@ -36,11 +36,11 @@
 (* blackbox *)
 module sky130_fd_sc_lp__inputiso1p (
     //# {{data|Data Signals}}
-    input  A    ,
-    output X    ,
+    input  wire A    ,
+    output wire X    ,
 
     //# {{power|Power}}
-    input  SLEEP
+    input  wire SLEEP
 );
 
     // Voltage supply signals

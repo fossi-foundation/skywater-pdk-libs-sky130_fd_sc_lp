@@ -39,8 +39,8 @@ module sky130_fd_sc_lp__lsbuf (
 );
 
     // Module ports
-    output X;
-    input  A;
+    output wire X;
+    input  wire A;
 
     // Module supplies
     supply1 DESTPWR;

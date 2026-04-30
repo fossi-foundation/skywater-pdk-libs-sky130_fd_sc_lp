@@ -38,7 +38,7 @@ module sky130_fd_sc_lp__bushold_1 (
 );
 
     inout X    ;
-    input RESET;
+    input wire RESET;
 
     // Voltage supply signals
     supply1 VPWR;

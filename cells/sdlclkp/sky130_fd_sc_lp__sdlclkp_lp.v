@@ -47,14 +47,14 @@ module sky130_fd_sc_lp__sdlclkp_lp (
     VNB
 );
 
-    output GCLK;
-    input  SCE ;
-    input  GATE;
-    input  CLK ;
-    input  VPWR;
-    input  VGND;
-    input  VPB ;
-    input  VNB ;
+    output wire GCLK;
+    input  wire SCE ;
+    input  wire GATE;
+    input  wire CLK ;
+    input  wire VPWR;
+    input  wire VGND;
+    input  wire VPB ;
+    input  wire VNB ;
     sky130_fd_sc_lp__sdlclkp base (
         .GCLK(GCLK),
         .SCE(SCE),
@@ -81,10 +81,10 @@ module sky130_fd_sc_lp__sdlclkp_lp (
     CLK
 );
 
-    output GCLK;
-    input  SCE ;
-    input  GATE;
-    input  CLK ;
+    output wire GCLK;
+    input  wire SCE ;
+    input  wire GATE;
+    input  wire CLK ;
 
     // Voltage supply signals
     supply1 VPWR;

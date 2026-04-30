@@ -49,16 +49,16 @@ module sky130_fd_sc_lp__a2111o_2 (
 );
 
     // Module ports
-    output X   ;
-    input  A1  ;
-    input  A2  ;
-    input  B1  ;
-    input  C1  ;
-    input  D1  ;
-    input  VPWR;
-    input  VGND;
-    input  VPB ;
-    input  VNB ;
+    output wire X   ;
+    input  wire A1  ;
+    input  wire A2  ;
+    input  wire B1  ;
+    input  wire C1  ;
+    input  wire D1  ;
+    input  wire VPWR;
+    input  wire VGND;
+    input  wire VPB ;
+    input  wire VNB ;
 
     // Local signals
     wire and0_out         ;

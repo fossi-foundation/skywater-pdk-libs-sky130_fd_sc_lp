@@ -37,9 +37,9 @@ module sky130_fd_sc_lp__einvn_0 (
     TE_B
 );
 
-    output Z   ;
-    input  A   ;
-    input  TE_B;
+    output wire Z   ;
+    input  wire A   ;
+    input  wire TE_B;
 
     // Voltage supply signals
     supply1 VPWR;

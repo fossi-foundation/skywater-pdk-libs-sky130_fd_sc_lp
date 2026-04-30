@@ -34,14 +34,14 @@
 (* blackbox *)
 module sky130_fd_sc_lp__dlygate4s15 (
     //# {{data|Data Signals}}
-    input  A   ,
-    output X   ,
+    input  wire A   ,
+    output wire X   ,
 
     //# {{power|Power}}
-    input  VPB ,
-    input  VPWR,
-    input  VGND,
-    input  VNB
+    input  wire VPB ,
+    input  wire VPWR,
+    input  wire VGND,
+    input  wire VNB
 );
 endmodule
 

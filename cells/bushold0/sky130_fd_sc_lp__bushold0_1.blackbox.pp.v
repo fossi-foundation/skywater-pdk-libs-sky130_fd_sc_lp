@@ -42,11 +42,11 @@ module sky130_fd_sc_lp__bushold0_1 (
 );
 
     inout X    ;
-    input RESET;
-    input VPWR ;
-    input VGND ;
-    input VPB  ;
-    input VNB  ;
+    input wire RESET;
+    input wire VPWR ;
+    input wire VGND ;
+    input wire VPB  ;
+    input wire VNB  ;
 endmodule
 
 `default_nettype wire

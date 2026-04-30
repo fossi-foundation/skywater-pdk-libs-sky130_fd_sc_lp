@@ -44,13 +44,13 @@ module sky130_fd_sc_lp__dlclkp_4 (
 );
 
     // Module ports
-    output GCLK;
-    input  GATE;
-    input  CLK ;
-    input  VPWR;
-    input  VGND;
-    input  VPB ;
-    input  VNB ;
+    output wire GCLK;
+    input  wire GATE;
+    input  wire CLK ;
+    input  wire VPWR;
+    input  wire VGND;
+    input  wire VPB ;
+    input  wire VNB ;
 
     // Local signals
     wire m0          ;

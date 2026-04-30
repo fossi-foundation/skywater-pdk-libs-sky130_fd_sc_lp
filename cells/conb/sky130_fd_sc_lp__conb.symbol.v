@@ -34,8 +34,8 @@
 (* blackbox *)
 module sky130_fd_sc_lp__conb (
     //# {{data|Data Signals}}
-    output HI,
-    output LO
+    output wire HI,
+    output wire LO
 );
 
     // Voltage supply signals

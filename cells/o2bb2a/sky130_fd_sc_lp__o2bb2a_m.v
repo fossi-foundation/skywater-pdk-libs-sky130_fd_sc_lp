@@ -50,15 +50,15 @@ module sky130_fd_sc_lp__o2bb2a_m (
     VNB
 );
 
-    output X   ;
-    input  A1_N;
-    input  A2_N;
-    input  B1  ;
-    input  B2  ;
-    input  VPWR;
-    input  VGND;
-    input  VPB ;
-    input  VNB ;
+    output wire X   ;
+    input  wire A1_N;
+    input  wire A2_N;
+    input  wire B1  ;
+    input  wire B2  ;
+    input  wire VPWR;
+    input  wire VGND;
+    input  wire VPB ;
+    input  wire VNB ;
     sky130_fd_sc_lp__o2bb2a base (
         .X(X),
         .A1_N(A1_N),
@@ -87,11 +87,11 @@ module sky130_fd_sc_lp__o2bb2a_m (
     B2
 );
 
-    output X   ;
-    input  A1_N;
-    input  A2_N;
-    input  B1  ;
-    input  B2  ;
+    output wire X   ;
+    input  wire A1_N;
+    input  wire A2_N;
+    input  wire B1  ;
+    input  wire B2  ;
 
     // Voltage supply signals
     supply1 VPWR;

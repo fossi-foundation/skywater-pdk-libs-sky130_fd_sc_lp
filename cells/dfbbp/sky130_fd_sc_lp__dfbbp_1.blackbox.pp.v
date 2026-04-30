@@ -45,16 +45,16 @@ module sky130_fd_sc_lp__dfbbp_1 (
     VNB
 );
 
-    output Q      ;
-    output Q_N    ;
-    input  D      ;
-    input  CLK    ;
-    input  SET_B  ;
-    input  RESET_B;
-    input  VPWR   ;
-    input  VGND   ;
-    input  VPB    ;
-    input  VNB    ;
+    output wire Q      ;
+    output wire Q_N    ;
+    input  wire D      ;
+    input  wire CLK    ;
+    input  wire SET_B  ;
+    input  wire RESET_B;
+    input  wire VPWR   ;
+    input  wire VGND   ;
+    input  wire VPB    ;
+    input  wire VNB    ;
 endmodule
 
 `default_nettype wire

@@ -34,18 +34,18 @@
 (* blackbox *)
 module sky130_fd_sc_lp__dlxbn (
     //# {{data|Data Signals}}
-    input  D     ,
-    output Q     ,
-    output Q_N   ,
+    input  wire D     ,
+    output wire Q     ,
+    output wire Q_N   ,
 
     //# {{clocks|Clocking}}
-    input  GATE_N,
+    input  wire GATE_N,
 
     //# {{power|Power}}
-    input  VPB   ,
-    input  VPWR  ,
-    input  VGND  ,
-    input  VNB
+    input  wire VPB   ,
+    input  wire VPWR  ,
+    input  wire VGND  ,
+    input  wire VNB
 );
 endmodule
 

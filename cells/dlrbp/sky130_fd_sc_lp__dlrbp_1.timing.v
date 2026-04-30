@@ -43,11 +43,11 @@ module sky130_fd_sc_lp__dlrbp_1 (
 );
 
     // Module ports
-    output Q      ;
-    output Q_N    ;
-    input  RESET_B;
-    input  D      ;
-    input  GATE   ;
+    output wire Q      ;
+    output wire Q_N    ;
+    input  wire RESET_B;
+    input  wire D      ;
+    input  wire GATE   ;
 
     // Module supplies
     supply1 VPWR;

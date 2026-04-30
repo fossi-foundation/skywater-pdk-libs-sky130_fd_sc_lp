@@ -39,11 +39,11 @@ module sky130_fd_sc_lp__fah_1 (
     CI
 );
 
-    output COUT;
-    output SUM ;
-    input  A   ;
-    input  B   ;
-    input  CI  ;
+    output wire COUT;
+    output wire SUM ;
+    input  wire A   ;
+    input  wire B   ;
+    input  wire CI  ;
 
     // Voltage supply signals
     supply1 VPWR;

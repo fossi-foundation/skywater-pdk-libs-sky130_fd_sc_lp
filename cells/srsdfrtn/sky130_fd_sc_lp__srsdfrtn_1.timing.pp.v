@@ -51,18 +51,18 @@ module sky130_fd_sc_lp__srsdfrtn_1 (
 );
 
     // Module ports
-    output Q      ;
-    input  CLK_N  ;
-    input  D      ;
-    input  SCD    ;
-    input  SCE    ;
-    input  RESET_B;
-    input  SLEEP_B;
-    input  KAPWR  ;
-    input  VPWR   ;
-    input  VGND   ;
-    input  VPB    ;
-    input  VNB    ;
+    output wire Q      ;
+    input  wire CLK_N  ;
+    input  wire D      ;
+    input  wire SCD    ;
+    input  wire SCE    ;
+    input  wire RESET_B;
+    input  wire SLEEP_B;
+    input  wire KAPWR  ;
+    input  wire VPWR   ;
+    input  wire VGND   ;
+    input  wire VPB    ;
+    input  wire VNB    ;
 
     // Local signals
     wire buf_Q          ;

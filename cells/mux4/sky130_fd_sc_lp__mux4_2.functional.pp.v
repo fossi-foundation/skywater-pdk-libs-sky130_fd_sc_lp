@@ -49,17 +49,17 @@ module sky130_fd_sc_lp__mux4_2 (
 );
 
     // Module ports
-    output X   ;
-    input  A0  ;
-    input  A1  ;
-    input  A2  ;
-    input  A3  ;
-    input  S0  ;
-    input  S1  ;
-    input  VPWR;
-    input  VGND;
-    input  VPB ;
-    input  VNB ;
+    output wire X   ;
+    input  wire A0  ;
+    input  wire A1  ;
+    input  wire A2  ;
+    input  wire A3  ;
+    input  wire S0  ;
+    input  wire S1  ;
+    input  wire VPWR;
+    input  wire VGND;
+    input  wire VPB ;
+    input  wire VNB ;
 
     // Local signals
     wire mux_4to20_out_X  ;

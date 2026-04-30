@@ -34,14 +34,14 @@
 (* blackbox *)
 module sky130_fd_sc_lp__srdlxtp (
     //# {{data|Data Signals}}
-    input  D      ,
-    output Q      ,
+    input  wire D      ,
+    output wire Q      ,
 
     //# {{clocks|Clocking}}
-    input  GATE   ,
+    input  wire GATE   ,
 
     //# {{power|Power}}
-    input  SLEEP_B
+    input  wire SLEEP_B
 );
 
     // Voltage supply signals

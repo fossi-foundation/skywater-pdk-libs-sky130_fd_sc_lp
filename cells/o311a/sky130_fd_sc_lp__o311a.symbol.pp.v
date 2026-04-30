@@ -36,18 +36,18 @@
 (* blackbox *)
 module sky130_fd_sc_lp__o311a (
     //# {{data|Data Signals}}
-    input  A1  ,
-    input  A2  ,
-    input  A3  ,
-    input  B1  ,
-    input  C1  ,
-    output X   ,
+    input  wire A1  ,
+    input  wire A2  ,
+    input  wire A3  ,
+    input  wire B1  ,
+    input  wire C1  ,
+    output wire X   ,
 
     //# {{power|Power}}
-    input  VPB ,
-    input  VPWR,
-    input  VGND,
-    input  VNB
+    input  wire VPB ,
+    input  wire VPWR,
+    input  wire VGND,
+    input  wire VNB
 );
 endmodule
 

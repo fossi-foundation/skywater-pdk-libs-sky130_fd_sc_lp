@@ -34,21 +34,21 @@
 (* blackbox *)
 module sky130_fd_sc_lp__mux4 (
     //# {{data|Data Signals}}
-    input  A0  ,
-    input  A1  ,
-    input  A2  ,
-    input  A3  ,
-    output X   ,
+    input  wire A0  ,
+    input  wire A1  ,
+    input  wire A2  ,
+    input  wire A3  ,
+    output wire X   ,
 
     //# {{control|Control Signals}}
-    input  S0  ,
-    input  S1  ,
+    input  wire S0  ,
+    input  wire S1  ,
 
     //# {{power|Power}}
-    input  VPB ,
-    input  VPWR,
-    input  VGND,
-    input  VNB
+    input  wire VPB ,
+    input  wire VPWR,
+    input  wire VGND,
+    input  wire VNB
 );
 endmodule
 

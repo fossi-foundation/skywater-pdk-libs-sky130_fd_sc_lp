@@ -41,10 +41,10 @@ module sky130_fd_sc_lp__dlxbp_1 (
 );
 
     // Module ports
-    output Q   ;
-    output Q_N ;
-    input  D   ;
-    input  GATE;
+    output wire Q   ;
+    output wire Q_N ;
+    input  wire D   ;
+    input  wire GATE;
 
     // Local signals
     wire buf_Q       ;

@@ -39,9 +39,9 @@ module sky130_fd_sc_lp__inputiso1p (
 );
 
     // Module ports
-    output X    ;
-    input  A    ;
-    input  SLEEP;
+    output wire X    ;
+    input  wire A    ;
+    input  wire SLEEP;
 
     //  Name  Output  Other arguments
     or  or0  (X     , A, SLEEP       );

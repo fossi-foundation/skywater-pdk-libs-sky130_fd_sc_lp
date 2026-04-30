@@ -37,9 +37,9 @@ module sky130_fd_sc_lp__iso0p (
 );
 
     // Module ports
-    output X    ;
-    input  A    ;
-    input  SLEEP;
+    output wire X    ;
+    input  wire A    ;
+    input  wire SLEEP;
 
     // Local signals
     wire sleepn;

@@ -34,17 +34,17 @@
 (* blackbox *)
 module sky130_fd_sc_lp__or4 (
     //# {{data|Data Signals}}
-    input  A   ,
-    input  B   ,
-    input  C   ,
-    input  D   ,
-    output X   ,
+    input  wire A   ,
+    input  wire B   ,
+    input  wire C   ,
+    input  wire D   ,
+    output wire X   ,
 
     //# {{power|Power}}
-    input  VPB ,
-    input  VPWR,
-    input  VGND,
-    input  VNB
+    input  wire VPB ,
+    input  wire VPWR,
+    input  wire VGND,
+    input  wire VNB
 );
 endmodule
 

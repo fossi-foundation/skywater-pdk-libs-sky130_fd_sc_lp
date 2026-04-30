@@ -37,9 +37,9 @@ module sky130_fd_sc_lp__iso0n (
     SLEEP_B
 );
 
-    output X      ;
-    input  A      ;
-    input  SLEEP_B;
+    output wire X      ;
+    input  wire A      ;
+    input  wire SLEEP_B;
 
     // Voltage supply signals
     supply1 VPWR ;

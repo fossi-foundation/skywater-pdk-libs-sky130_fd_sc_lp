@@ -41,13 +41,13 @@ module sky130_fd_sc_lp__invkapwr_1 (
     VNB
 );
 
-    output Y    ;
-    input  A    ;
-    input  VPWR ;
-    input  VGND ;
-    input  KAPWR;
-    input  VPB  ;
-    input  VNB  ;
+    output wire Y    ;
+    input  wire A    ;
+    input  wire VPWR ;
+    input  wire VGND ;
+    input  wire KAPWR;
+    input  wire VPB  ;
+    input  wire VNB  ;
 endmodule
 
 `default_nettype wire

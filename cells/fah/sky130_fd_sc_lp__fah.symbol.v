@@ -34,11 +34,11 @@
 (* blackbox *)
 module sky130_fd_sc_lp__fah (
     //# {{data|Data Signals}}
-    input  A   ,
-    input  B   ,
-    input  CI  ,
-    output COUT,
-    output SUM
+    input  wire A   ,
+    input  wire B   ,
+    input  wire CI  ,
+    output wire COUT,
+    output wire SUM
 );
 
     // Voltage supply signals

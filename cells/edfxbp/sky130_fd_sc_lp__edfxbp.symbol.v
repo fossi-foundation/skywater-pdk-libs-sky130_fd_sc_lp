@@ -35,15 +35,15 @@
 (* blackbox *)
 module sky130_fd_sc_lp__edfxbp (
     //# {{data|Data Signals}}
-    input  D  ,
-    output Q  ,
-    output Q_N,
+    input  wire D  ,
+    output wire Q  ,
+    output wire Q_N,
 
     //# {{control|Control Signals}}
-    input  DE ,
+    input  wire DE ,
 
     //# {{clocks|Clocking}}
-    input  CLK
+    input  wire CLK
 );
 
     // Voltage supply signals

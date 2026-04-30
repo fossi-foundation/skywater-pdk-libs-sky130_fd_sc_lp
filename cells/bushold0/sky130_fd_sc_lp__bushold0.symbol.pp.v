@@ -38,13 +38,13 @@ module sky130_fd_sc_lp__bushold0 (
     inout X    ,
 
     //# {{control|Control Signals}}
-    input RESET,
+    input wire RESET,
 
     //# {{power|Power}}
-    input VPB  ,
-    input VPWR ,
-    input VGND ,
-    input VNB
+    input wire VPB  ,
+    input wire VPWR ,
+    input wire VGND ,
+    input wire VNB
 );
 endmodule
 

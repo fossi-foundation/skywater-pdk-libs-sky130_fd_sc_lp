@@ -41,13 +41,13 @@ module sky130_fd_sc_lp__iso0p (
     VNB
 );
 
-    output X    ;
-    input  A    ;
-    input  SLEEP;
-    input  KAPWR;
-    input  VGND ;
-    input  VPB  ;
-    input  VNB  ;
+    output wire X    ;
+    input  wire A    ;
+    input  wire SLEEP;
+    input  wire KAPWR;
+    input  wire VGND ;
+    input  wire VPB  ;
+    input  wire VNB  ;
 endmodule
 
 `default_nettype wire

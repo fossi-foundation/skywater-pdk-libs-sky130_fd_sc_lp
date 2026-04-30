@@ -38,10 +38,10 @@ module sky130_fd_sc_lp__ha_1 (
 );
 
     // Module ports
-    output COUT;
-    output SUM ;
-    input  A   ;
-    input  B   ;
+    output wire COUT;
+    output wire SUM ;
+    input  wire A   ;
+    input  wire B   ;
 
     // Module supplies
     supply1 VPWR;

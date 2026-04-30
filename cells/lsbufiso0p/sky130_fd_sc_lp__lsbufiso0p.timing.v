@@ -40,9 +40,9 @@ module sky130_fd_sc_lp__lsbufiso0p (
 );
 
     // Module ports
-    output X    ;
-    input  SLEEP;
-    input  A    ;
+    output wire X    ;
+    input  wire SLEEP;
+    input  wire A    ;
 
     // Module supplies
     supply1 DESTPWR;

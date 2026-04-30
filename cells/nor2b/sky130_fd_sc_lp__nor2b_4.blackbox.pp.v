@@ -43,13 +43,13 @@ module sky130_fd_sc_lp__nor2b_4 (
     VNB
 );
 
-    output Y   ;
-    input  A   ;
-    input  B_N ;
-    input  VPWR;
-    input  VGND;
-    input  VPB ;
-    input  VNB ;
+    output wire Y   ;
+    input  wire A   ;
+    input  wire B_N ;
+    input  wire VPWR;
+    input  wire VGND;
+    input  wire VPB ;
+    input  wire VNB ;
 endmodule
 
 `default_nettype wire

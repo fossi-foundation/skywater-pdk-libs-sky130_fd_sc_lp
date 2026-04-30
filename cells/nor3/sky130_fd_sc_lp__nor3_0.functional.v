@@ -40,10 +40,10 @@ module sky130_fd_sc_lp__nor3_0 (
 );
 
     // Module ports
-    output Y;
-    input  A;
-    input  B;
-    input  C;
+    output wire Y;
+    input  wire A;
+    input  wire B;
+    input  wire C;
 
     // Local signals
     wire nor0_out_Y;

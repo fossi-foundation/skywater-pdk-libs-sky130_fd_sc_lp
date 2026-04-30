@@ -39,9 +39,9 @@ module sky130_fd_sc_lp__xnor2_2 (
 );
 
     // Module ports
-    output Y;
-    input  A;
-    input  B;
+    output wire Y;
+    input  wire A;
+    input  wire B;
 
     // Module supplies
     supply1 VPWR;

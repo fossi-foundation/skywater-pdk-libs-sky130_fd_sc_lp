@@ -41,10 +41,10 @@ module sky130_fd_sc_lp__dfrtp_1 (
 );
 
     // Module ports
-    output Q      ;
-    input  CLK    ;
-    input  D      ;
-    input  RESET_B;
+    output wire Q      ;
+    input  wire CLK    ;
+    input  wire D      ;
+    input  wire RESET_B;
 
     // Local signals
     wire buf_Q;

@@ -36,8 +36,8 @@ module sky130_fd_sc_lp__sleep_pargate_plv_28 (
     SLEEP
 );
 
-    output VIRTPWR;
-    input  SLEEP  ;
+    output wire VIRTPWR;
+    input  wire SLEEP  ;
 
     // Voltage supply signals
     supply1 VPWR;

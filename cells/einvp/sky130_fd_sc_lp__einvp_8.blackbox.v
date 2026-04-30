@@ -37,9 +37,9 @@ module sky130_fd_sc_lp__einvp_8 (
     TE
 );
 
-    output Z ;
-    input  A ;
-    input  TE;
+    output wire Z ;
+    input  wire A ;
+    input  wire TE;
 
     // Voltage supply signals
     supply1 VPWR;

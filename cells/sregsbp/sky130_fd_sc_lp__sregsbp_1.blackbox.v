@@ -41,13 +41,13 @@ module sky130_fd_sc_lp__sregsbp_1 (
     ASYNC
 );
 
-    output Q    ;
-    output Q_N  ;
-    input  CLK  ;
-    input  D    ;
-    input  SCD  ;
-    input  SCE  ;
-    input  ASYNC;
+    output wire Q    ;
+    output wire Q_N  ;
+    input  wire CLK  ;
+    input  wire D    ;
+    input  wire SCD  ;
+    input  wire SCE  ;
+    input  wire ASYNC;
 
     // Voltage supply signals
     supply1 VPWR;

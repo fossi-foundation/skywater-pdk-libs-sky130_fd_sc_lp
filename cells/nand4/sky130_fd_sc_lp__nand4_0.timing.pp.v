@@ -46,15 +46,15 @@ module sky130_fd_sc_lp__nand4_0 (
 );
 
     // Module ports
-    output Y   ;
-    input  A   ;
-    input  B   ;
-    input  C   ;
-    input  D   ;
-    input  VPWR;
-    input  VGND;
-    input  VPB ;
-    input  VNB ;
+    output wire Y   ;
+    input  wire A   ;
+    input  wire B   ;
+    input  wire C   ;
+    input  wire D   ;
+    input  wire VPWR;
+    input  wire VGND;
+    input  wire VPB ;
+    input  wire VNB ;
 
     // Local signals
     wire nand0_out_Y      ;

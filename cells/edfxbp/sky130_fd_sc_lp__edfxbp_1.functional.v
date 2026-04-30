@@ -44,11 +44,11 @@ module sky130_fd_sc_lp__edfxbp_1 (
 );
 
     // Module ports
-    output Q  ;
-    output Q_N;
-    input  CLK;
-    input  D  ;
-    input  DE ;
+    output wire Q  ;
+    output wire Q_N;
+    input  wire CLK;
+    input  wire D  ;
+    input  wire DE ;
 
     // Local signals
     wire buf_Q  ;

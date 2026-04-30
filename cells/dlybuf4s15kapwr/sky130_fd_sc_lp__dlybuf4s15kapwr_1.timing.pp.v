@@ -45,13 +45,13 @@ module sky130_fd_sc_lp__dlybuf4s15kapwr_1 (
 );
 
     // Module ports
-    output X    ;
-    input  A    ;
-    input  VPWR ;
-    input  VGND ;
-    input  KAPWR;
-    input  VPB  ;
-    input  VNB  ;
+    output wire X    ;
+    input  wire A    ;
+    input  wire VPWR ;
+    input  wire VGND ;
+    input  wire KAPWR;
+    input  wire VPB  ;
+    input  wire VNB  ;
 
     // Local signals
     wire buf0_out_X       ;

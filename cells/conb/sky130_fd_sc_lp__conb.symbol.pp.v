@@ -34,14 +34,14 @@
 (* blackbox *)
 module sky130_fd_sc_lp__conb (
     //# {{data|Data Signals}}
-    output HI  ,
-    output LO  ,
+    output wire HI  ,
+    output wire LO  ,
 
     //# {{power|Power}}
-    input  VPB ,
-    input  VPWR,
-    input  VGND,
-    input  VNB
+    input  wire VPB ,
+    input  wire VPWR,
+    input  wire VGND,
+    input  wire VNB
 );
 endmodule
 

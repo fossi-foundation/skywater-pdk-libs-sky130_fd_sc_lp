@@ -37,8 +37,8 @@ module sky130_fd_sc_lp__dlybuf4s18kapwr_2 (
     A
 );
 
-    output X;
-    input  A;
+    output wire X;
+    input  wire A;
 
     // Voltage supply signals
     supply1 VPWR ;

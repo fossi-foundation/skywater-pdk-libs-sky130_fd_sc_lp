@@ -41,10 +41,10 @@ module sky130_fd_sc_lp__mux2i_1 (
 );
 
     // Module ports
-    output Y ;
-    input  A0;
-    input  A1;
-    input  S ;
+    output wire Y ;
+    input  wire A0;
+    input  wire A1;
+    input  wire S ;
 
     // Module supplies
     supply1 VPWR;

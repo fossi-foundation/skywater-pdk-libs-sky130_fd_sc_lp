@@ -41,11 +41,11 @@ module sky130_fd_sc_lp__a31oi_2 (
     B1
 );
 
-    output Y ;
-    input  A1;
-    input  A2;
-    input  A3;
-    input  B1;
+    output wire Y ;
+    input  wire A1;
+    input  wire A2;
+    input  wire A3;
+    input  wire B1;
 
     // Voltage supply signals
     supply1 VPWR;

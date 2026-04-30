@@ -48,14 +48,14 @@ module sky130_fd_sc_lp__dlrtp_lp (
     VNB
 );
 
-    output Q      ;
-    input  RESET_B;
-    input  D      ;
-    input  GATE   ;
-    input  VPWR   ;
-    input  VGND   ;
-    input  VPB    ;
-    input  VNB    ;
+    output wire Q      ;
+    input  wire RESET_B;
+    input  wire D      ;
+    input  wire GATE   ;
+    input  wire VPWR   ;
+    input  wire VGND   ;
+    input  wire VPB    ;
+    input  wire VNB    ;
     sky130_fd_sc_lp__dlrtp base (
         .Q(Q),
         .RESET_B(RESET_B),
@@ -82,10 +82,10 @@ module sky130_fd_sc_lp__dlrtp_lp (
     GATE
 );
 
-    output Q      ;
-    input  RESET_B;
-    input  D      ;
-    input  GATE   ;
+    output wire Q      ;
+    input  wire RESET_B;
+    input  wire D      ;
+    input  wire GATE   ;
 
     // Voltage supply signals
     supply1 VPWR;

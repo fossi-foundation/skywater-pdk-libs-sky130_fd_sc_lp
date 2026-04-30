@@ -35,8 +35,8 @@
 (* blackbox *)
 module sky130_fd_sc_lp__dlybuf4s50kapwr (
     //# {{data|Data Signals}}
-    input  A,
-    output X
+    input  wire A,
+    output wire X
 );
 
     // Voltage supply signals

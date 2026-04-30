@@ -34,9 +34,9 @@
 (* blackbox *)
 module sky130_fd_sc_lp__nand2b (
     //# {{data|Data Signals}}
-    input  A_N,
-    input  B  ,
-    output Y
+    input  wire A_N,
+    input  wire B  ,
+    output wire Y
 );
 
     // Voltage supply signals

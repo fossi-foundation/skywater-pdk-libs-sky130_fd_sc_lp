@@ -34,12 +34,12 @@
 (* blackbox *)
 module sky130_fd_sc_lp__mux2 (
     //# {{data|Data Signals}}
-    input  A0,
-    input  A1,
-    output X ,
+    input  wire A0,
+    input  wire A1,
+    output wire X ,
 
     //# {{control|Control Signals}}
-    input  S
+    input  wire S
 );
 
     // Voltage supply signals

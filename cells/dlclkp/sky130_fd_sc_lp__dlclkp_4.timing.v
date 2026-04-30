@@ -40,9 +40,9 @@ module sky130_fd_sc_lp__dlclkp_4 (
 );
 
     // Module ports
-    output GCLK;
-    input  GATE;
-    input  CLK ;
+    output wire GCLK;
+    input  wire GATE;
+    input  wire CLK ;
 
     // Module supplies
     supply1 VPWR;

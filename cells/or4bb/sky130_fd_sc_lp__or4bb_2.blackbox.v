@@ -39,11 +39,11 @@ module sky130_fd_sc_lp__or4bb_2 (
     D_N
 );
 
-    output X  ;
-    input  A  ;
-    input  B  ;
-    input  C_N;
-    input  D_N;
+    output wire X  ;
+    input  wire A  ;
+    input  wire B  ;
+    input  wire C_N;
+    input  wire D_N;
 
     // Voltage supply signals
     supply1 VPWR;

@@ -35,14 +35,14 @@
 (* blackbox *)
 module sky130_fd_sc_lp__busdrivernovlpsleep (
     //# {{data|Data Signals}}
-    input  A    ,
-    output Z    ,
+    input  wire A    ,
+    output wire Z    ,
 
     //# {{control|Control Signals}}
-    input  TE_B ,
+    input  wire TE_B ,
 
     //# {{power|Power}}
-    input  SLEEP
+    input  wire SLEEP
 );
 
     // Voltage supply signals

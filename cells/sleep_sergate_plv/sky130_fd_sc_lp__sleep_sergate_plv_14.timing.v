@@ -36,8 +36,8 @@ module sky130_fd_sc_lp__sleep_sergate_plv_14 (
 );
 
     // Module ports
-    output VIRTPWR;
-    input  SLEEP  ;
+    output wire VIRTPWR;
+    input  wire SLEEP  ;
 
     // Module supplies
     supply1 VPWR;

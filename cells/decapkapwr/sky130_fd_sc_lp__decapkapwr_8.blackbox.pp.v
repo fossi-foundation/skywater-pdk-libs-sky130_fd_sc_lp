@@ -39,11 +39,11 @@ module sky130_fd_sc_lp__decapkapwr_8 (
     VNB
 );
 
-    input KAPWR;
-    input VPWR ;
-    input VGND ;
-    input VPB  ;
-    input VNB  ;
+    input wire KAPWR;
+    input wire VPWR ;
+    input wire VGND ;
+    input wire VPB  ;
+    input wire VNB  ;
 endmodule
 
 `default_nettype wire

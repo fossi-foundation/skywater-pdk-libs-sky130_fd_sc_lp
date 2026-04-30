@@ -41,12 +41,12 @@ module sky130_fd_sc_lp__clkdlybuf4s50_2 (
     VNB
 );
 
-    output X   ;
-    input  A   ;
-    input  VPWR;
-    input  VGND;
-    input  VPB ;
-    input  VNB ;
+    output wire X   ;
+    input  wire A   ;
+    input  wire VPWR;
+    input  wire VGND;
+    input  wire VPB ;
+    input  wire VNB ;
 endmodule
 
 `default_nettype wire

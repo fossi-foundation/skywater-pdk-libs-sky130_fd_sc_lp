@@ -34,11 +34,11 @@
 (* blackbox *)
 module sky130_fd_sc_lp__dfxtp (
     //# {{data|Data Signals}}
-    input  D  ,
-    output Q  ,
+    input  wire D  ,
+    output wire Q  ,
 
     //# {{clocks|Clocking}}
-    input  CLK
+    input  wire CLK
 );
 
     // Voltage supply signals

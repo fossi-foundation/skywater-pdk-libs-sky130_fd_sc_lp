@@ -42,11 +42,11 @@ module sky130_fd_sc_lp__dfsbp_2 (
 );
 
     // Module ports
-    output Q    ;
-    output Q_N  ;
-    input  CLK  ;
-    input  D    ;
-    input  SET_B;
+    output wire Q    ;
+    output wire Q_N  ;
+    input  wire CLK  ;
+    input  wire D    ;
+    input  wire SET_B;
 
     // Module supplies
     supply1 VPWR;

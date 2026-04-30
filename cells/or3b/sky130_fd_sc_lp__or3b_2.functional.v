@@ -38,10 +38,10 @@ module sky130_fd_sc_lp__or3b_2 (
 );
 
     // Module ports
-    output X  ;
-    input  A  ;
-    input  B  ;
-    input  C_N;
+    output wire X  ;
+    input  wire A  ;
+    input  wire B  ;
+    input  wire C_N;
 
     // Local signals
     wire not0_out ;

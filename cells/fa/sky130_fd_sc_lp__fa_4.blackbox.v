@@ -39,11 +39,11 @@ module sky130_fd_sc_lp__fa_4 (
     CIN
 );
 
-    output COUT;
-    output SUM ;
-    input  A   ;
-    input  B   ;
-    input  CIN ;
+    output wire COUT;
+    output wire SUM ;
+    input  wire A   ;
+    input  wire B   ;
+    input  wire CIN ;
 
     // Voltage supply signals
     supply1 VPWR;

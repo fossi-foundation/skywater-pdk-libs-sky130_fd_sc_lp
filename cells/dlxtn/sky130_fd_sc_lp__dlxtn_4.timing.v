@@ -40,9 +40,9 @@ module sky130_fd_sc_lp__dlxtn_4 (
 );
 
     // Module ports
-    output Q     ;
-    input  D     ;
-    input  GATE_N;
+    output wire Q     ;
+    input  wire D     ;
+    input  wire GATE_N;
 
     // Module supplies
     supply1 VPWR;

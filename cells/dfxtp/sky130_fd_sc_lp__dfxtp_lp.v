@@ -46,13 +46,13 @@ module sky130_fd_sc_lp__dfxtp_lp (
     VNB
 );
 
-    output Q   ;
-    input  CLK ;
-    input  D   ;
-    input  VPWR;
-    input  VGND;
-    input  VPB ;
-    input  VNB ;
+    output wire Q   ;
+    input  wire CLK ;
+    input  wire D   ;
+    input  wire VPWR;
+    input  wire VGND;
+    input  wire VPB ;
+    input  wire VNB ;
     sky130_fd_sc_lp__dfxtp base (
         .Q(Q),
         .CLK(CLK),
@@ -77,9 +77,9 @@ module sky130_fd_sc_lp__dfxtp_lp (
     D
 );
 
-    output Q  ;
-    input  CLK;
-    input  D  ;
+    output wire Q  ;
+    input  wire CLK;
+    input  wire D  ;
 
     // Voltage supply signals
     supply1 VPWR;

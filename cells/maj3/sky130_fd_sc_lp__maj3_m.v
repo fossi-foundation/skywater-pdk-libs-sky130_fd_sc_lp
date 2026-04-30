@@ -47,14 +47,14 @@ module sky130_fd_sc_lp__maj3_m (
     VNB
 );
 
-    output X   ;
-    input  A   ;
-    input  B   ;
-    input  C   ;
-    input  VPWR;
-    input  VGND;
-    input  VPB ;
-    input  VNB ;
+    output wire X   ;
+    input  wire A   ;
+    input  wire B   ;
+    input  wire C   ;
+    input  wire VPWR;
+    input  wire VGND;
+    input  wire VPB ;
+    input  wire VNB ;
     sky130_fd_sc_lp__maj3 base (
         .X(X),
         .A(A),
@@ -81,10 +81,10 @@ module sky130_fd_sc_lp__maj3_m (
     C
 );
 
-    output X;
-    input  A;
-    input  B;
-    input  C;
+    output wire X;
+    input  wire A;
+    input  wire B;
+    input  wire C;
 
     // Voltage supply signals
     supply1 VPWR;

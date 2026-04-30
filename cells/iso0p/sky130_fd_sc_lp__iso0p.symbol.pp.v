@@ -34,15 +34,15 @@
 (* blackbox *)
 module sky130_fd_sc_lp__iso0p (
     //# {{data|Data Signals}}
-    input  A    ,
-    output X    ,
+    input  wire A    ,
+    output wire X    ,
 
     //# {{power|Power}}
-    input  SLEEP,
-    input  KAPWR,
-    input  VPB  ,
-    input  VGND ,
-    input  VNB
+    input  wire SLEEP,
+    input  wire KAPWR,
+    input  wire VPB  ,
+    input  wire VGND ,
+    input  wire VNB
 );
 endmodule
 

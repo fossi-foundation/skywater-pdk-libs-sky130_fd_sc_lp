@@ -41,10 +41,10 @@ module sky130_fd_sc_lp__mux2_1 (
 );
 
     // Module ports
-    output X ;
-    input  A0;
-    input  A1;
-    input  S ;
+    output wire X ;
+    input  wire A0;
+    input  wire A1;
+    input  wire S ;
 
     // Local signals
     wire mux_2to10_out_X;

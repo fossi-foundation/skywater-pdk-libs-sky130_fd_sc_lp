@@ -38,10 +38,10 @@ module sky130_fd_sc_lp__or3b_1 (
     C_N
 );
 
-    output X  ;
-    input  A  ;
-    input  B  ;
-    input  C_N;
+    output wire X  ;
+    input  wire A  ;
+    input  wire B  ;
+    input  wire C_N;
 
     // Voltage supply signals
     supply1 VPWR;

@@ -37,9 +37,9 @@ module sky130_fd_sc_lp__lsbufiso1p (
     SLEEP
 );
 
-    output X    ;
-    input  A    ;
-    input  SLEEP;
+    output wire X    ;
+    input  wire A    ;
+    input  wire SLEEP;
 
     // Voltage supply signals
     supply1 DESTPWR;

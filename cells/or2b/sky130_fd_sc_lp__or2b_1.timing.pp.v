@@ -44,13 +44,13 @@ module sky130_fd_sc_lp__or2b_1 (
 );
 
     // Module ports
-    output X   ;
-    input  A   ;
-    input  B_N ;
-    input  VPWR;
-    input  VGND;
-    input  VPB ;
-    input  VNB ;
+    output wire X   ;
+    input  wire A   ;
+    input  wire B_N ;
+    input  wire VPWR;
+    input  wire VGND;
+    input  wire VPB ;
+    input  wire VNB ;
 
     // Local signals
     wire not0_out         ;

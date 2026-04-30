@@ -41,12 +41,12 @@ module sky130_fd_sc_lp__srsdfxtp_1 (
     SLEEP_B
 );
 
-    output Q      ;
-    input  CLK    ;
-    input  D      ;
-    input  SCD    ;
-    input  SCE    ;
-    input  SLEEP_B;
+    output wire Q      ;
+    input  wire CLK    ;
+    input  wire D      ;
+    input  wire SCD    ;
+    input  wire SCE    ;
+    input  wire SLEEP_B;
 
     // Voltage supply signals
     supply1 KAPWR;

@@ -34,18 +34,18 @@
 (* blackbox *)
 module sky130_fd_sc_lp__sdlclkp (
     //# {{scanchain|Scan Chain}}
-    input  SCE ,
+    input  wire SCE ,
 
     //# {{clocks|Clocking}}
-    input  CLK ,
-    input  GATE,
-    output GCLK,
+    input  wire CLK ,
+    input  wire GATE,
+    output wire GCLK,
 
     //# {{power|Power}}
-    input  VPB ,
-    input  VPWR,
-    input  VGND,
-    input  VNB
+    input  wire VPB ,
+    input  wire VPWR,
+    input  wire VGND,
+    input  wire VNB
 );
 endmodule
 

@@ -38,10 +38,10 @@ module sky130_fd_sc_lp__mux2i_1 (
     S
 );
 
-    output Y ;
-    input  A0;
-    input  A1;
-    input  S ;
+    output wire Y ;
+    input  wire A0;
+    input  wire A1;
+    input  wire S ;
 
     // Voltage supply signals
     supply1 VPWR;

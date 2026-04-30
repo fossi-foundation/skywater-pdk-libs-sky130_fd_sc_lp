@@ -36,8 +36,8 @@ module sky130_fd_sc_lp__inv_8 (
     A
 );
 
-    output Y;
-    input  A;
+    output wire Y;
+    input  wire A;
 
     // Voltage supply signals
     supply1 VPWR;

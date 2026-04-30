@@ -44,13 +44,13 @@ module sky130_fd_sc_lp__iso1p (
 );
 
     // Module ports
-    output X    ;
-    input  A    ;
-    input  SLEEP;
-    input  KAPWR;
-    input  VGND ;
-    input  VPB  ;
-    input  VNB  ;
+    output wire X    ;
+    input  wire A    ;
+    input  wire SLEEP;
+    input  wire KAPWR;
+    input  wire VGND ;
+    input  wire VPB  ;
+    input  wire VNB  ;
 
     // Local signals
     wire pwrgood_pp0_out_A    ;

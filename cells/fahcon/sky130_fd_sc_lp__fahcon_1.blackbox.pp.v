@@ -43,15 +43,15 @@ module sky130_fd_sc_lp__fahcon_1 (
     VNB
 );
 
-    output COUT_N;
-    output SUM   ;
-    input  A     ;
-    input  B     ;
-    input  CI    ;
-    input  VPWR  ;
-    input  VGND  ;
-    input  VPB   ;
-    input  VNB   ;
+    output wire COUT_N;
+    output wire SUM   ;
+    input  wire A     ;
+    input  wire B     ;
+    input  wire CI    ;
+    input  wire VPWR  ;
+    input  wire VGND  ;
+    input  wire VPB   ;
+    input  wire VNB   ;
 endmodule
 
 `default_nettype wire

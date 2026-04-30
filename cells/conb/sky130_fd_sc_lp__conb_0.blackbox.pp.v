@@ -40,12 +40,12 @@ module sky130_fd_sc_lp__conb_0 (
     VNB
 );
 
-    output HI  ;
-    output LO  ;
-    input  VPWR;
-    input  VGND;
-    input  VPB ;
-    input  VNB ;
+    output wire HI  ;
+    output wire LO  ;
+    input  wire VPWR;
+    input  wire VGND;
+    input  wire VPB ;
+    input  wire VNB ;
 endmodule
 
 `default_nettype wire

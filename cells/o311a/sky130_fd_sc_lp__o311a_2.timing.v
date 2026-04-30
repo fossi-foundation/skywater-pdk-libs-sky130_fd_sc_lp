@@ -42,12 +42,12 @@ module sky130_fd_sc_lp__o311a_2 (
 );
 
     // Module ports
-    output X ;
-    input  A1;
-    input  A2;
-    input  A3;
-    input  B1;
-    input  C1;
+    output wire X ;
+    input  wire A1;
+    input  wire A2;
+    input  wire A3;
+    input  wire B1;
+    input  wire C1;
 
     // Module supplies
     supply1 VPWR;

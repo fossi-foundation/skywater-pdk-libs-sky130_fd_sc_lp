@@ -46,13 +46,13 @@ module sky130_fd_sc_lp__einvp_m (
     VNB
 );
 
-    output Z   ;
-    input  A   ;
-    input  TE  ;
-    input  VPWR;
-    input  VGND;
-    input  VPB ;
-    input  VNB ;
+    output wire Z   ;
+    input  wire A   ;
+    input  wire TE  ;
+    input  wire VPWR;
+    input  wire VGND;
+    input  wire VPB ;
+    input  wire VNB ;
     sky130_fd_sc_lp__einvp base (
         .Z(Z),
         .A(A),
@@ -77,9 +77,9 @@ module sky130_fd_sc_lp__einvp_m (
     TE
 );
 
-    output Z ;
-    input  A ;
-    input  TE;
+    output wire Z ;
+    input  wire A ;
+    input  wire TE;
 
     // Voltage supply signals
     supply1 VPWR;

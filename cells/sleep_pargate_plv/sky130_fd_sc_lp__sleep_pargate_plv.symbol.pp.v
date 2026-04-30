@@ -34,11 +34,11 @@
 (* blackbox *)
 module sky130_fd_sc_lp__sleep_pargate_plv (
     //# {{power|Power}}
-    input  SLEEP  ,
-    output VIRTPWR,
-    input  VPB    ,
-    input  VPWR   ,
-    input  VNB
+    input  wire SLEEP  ,
+    output wire VIRTPWR,
+    input  wire VPB    ,
+    input  wire VPWR   ,
+    input  wire VNB
 );
 endmodule
 

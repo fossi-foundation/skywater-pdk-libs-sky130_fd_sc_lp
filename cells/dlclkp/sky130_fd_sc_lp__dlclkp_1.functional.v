@@ -40,9 +40,9 @@ module sky130_fd_sc_lp__dlclkp_1 (
 );
 
     // Module ports
-    output GCLK;
-    input  GATE;
-    input  CLK ;
+    output wire GCLK;
+    input  wire GATE;
+    input  wire CLK ;
 
     // Local signals
     wire m0          ;

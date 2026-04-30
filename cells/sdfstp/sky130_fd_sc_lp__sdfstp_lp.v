@@ -50,16 +50,16 @@ module sky130_fd_sc_lp__sdfstp_lp (
     VNB
 );
 
-    output Q    ;
-    input  CLK  ;
-    input  D    ;
-    input  SCD  ;
-    input  SCE  ;
-    input  SET_B;
-    input  VPWR ;
-    input  VGND ;
-    input  VPB  ;
-    input  VNB  ;
+    output wire Q    ;
+    input  wire CLK  ;
+    input  wire D    ;
+    input  wire SCD  ;
+    input  wire SCE  ;
+    input  wire SET_B;
+    input  wire VPWR ;
+    input  wire VGND ;
+    input  wire VPB  ;
+    input  wire VNB  ;
     sky130_fd_sc_lp__sdfstp base (
         .Q(Q),
         .CLK(CLK),
@@ -90,12 +90,12 @@ module sky130_fd_sc_lp__sdfstp_lp (
     SET_B
 );
 
-    output Q    ;
-    input  CLK  ;
-    input  D    ;
-    input  SCD  ;
-    input  SCE  ;
-    input  SET_B;
+    output wire Q    ;
+    input  wire CLK  ;
+    input  wire D    ;
+    input  wire SCD  ;
+    input  wire SCE  ;
+    input  wire SET_B;
 
     // Voltage supply signals
     supply1 VPWR;

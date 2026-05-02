@@ -62,9 +62,9 @@ module sky130_fd_sc_lp__srsdfrtn_1 (
     supply0 VNB  ;
 
     // Local signals
-    wire buf_Q          ;
     wire RESET          ;
     wire mux_out        ;
+    wire buf_Q          ;
     reg  notifier       ;
     wire D_delayed      ;
     wire SCD_delayed    ;
@@ -78,17 +78,17 @@ module sky130_fd_sc_lp__srsdfrtn_1 (
     wire cond3          ;
     wire cond4          ;
 
-    //                                    Delay       Name       Output   Other arguments
-    not                                               not0      (RESET  , RESET_B_delayed                                                    );
-    sky130_fd_sc_lp__udp_mux_2to1                     mux_2to10 (mux_out, D_delayed, SCD_delayed, SCE_delayed                                );
-    sky130_fd_sc_lp__udp_dff$NR_pp$PKG$sN `UNIT_DELAY dff0      (buf_Q  , mux_out, CLK_N_delayed, RESET, SLEEP_B, notifier, KAPWR, VGND, VPWR);
+    //                                    Name       Output   Other arguments
+    not                                   not0      (RESET  , RESET_B_delayed                                                    );
+    sky130_fd_sc_lp__udp_mux_2to1         mux_2to10 (mux_out, D_delayed, SCD_delayed, SCE_delayed                                );
+    sky130_fd_sc_lp__udp_dff$NR_pp$PKG$sN dff0      (buf_Q  , mux_out, CLK_N_delayed, RESET, SLEEP_B, notifier, KAPWR, VGND, VPWR);
     assign awake = ( ( SLEEP_B === 1'b1 ) && awake );
     assign cond0 = ( ( RESET_B_delayed === 1'b1 ) && awake );
     assign cond1 = ( ( SCE_delayed === 1'b0 ) && cond0 && awake );
     assign cond2 = ( ( SCE_delayed === 1'b1 ) && cond0 && awake );
     assign cond3 = ( ( D_delayed !== SCD_delayed ) && cond0 && awake );
     assign cond4 = ( ( RESET_B === 1'b1 ) && awake );
-    bufif1                                            bufif10   (Q      , buf_Q, VPWR                                                        );
+    bufif1                                bufif10   (Q      , buf_Q, VPWR                                                        );
 
 specify
 (negedge RESET_B => (Q +: RESET_B ) ) = 0:0:0;  // delay is tris

@@ -35,26 +35,26 @@
 (* blackbox *)
 module sky130_fd_sc_lp__srsdfrtp (
     //# {{data|Data Signals}}
-    input  D      ,
-    output Q      ,
+    input  wire D      ,
+    output wire Q      ,
 
     //# {{control|Control Signals}}
-    input  RESET_B,
+    input  wire RESET_B,
 
     //# {{scanchain|Scan Chain}}
-    input  SCD    ,
-    input  SCE    ,
+    input  wire SCD    ,
+    input  wire SCE    ,
 
     //# {{clocks|Clocking}}
-    input  CLK    ,
+    input  wire CLK    ,
 
     //# {{power|Power}}
-    input  SLEEP_B,
-    input  KAPWR  ,
-    input  VPB    ,
-    input  VPWR   ,
-    input  VGND   ,
-    input  VNB
+    input  wire SLEEP_B,
+    input  wire KAPWR  ,
+    input  wire VPB    ,
+    input  wire VPWR   ,
+    input  wire VGND   ,
+    input  wire VNB
 );
 endmodule
 

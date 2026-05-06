@@ -42,14 +42,14 @@ module sky130_fd_sc_lp__ha_2 (
     VNB
 );
 
-    output COUT;
-    output SUM ;
-    input  A   ;
-    input  B   ;
-    input  VPWR;
-    input  VGND;
-    input  VPB ;
-    input  VNB ;
+    output wire COUT;
+    output wire SUM ;
+    input  wire A   ;
+    input  wire B   ;
+    input  wire VPWR;
+    input  wire VGND;
+    input  wire VPB ;
+    input  wire VNB ;
 endmodule
 
 `default_nettype wire

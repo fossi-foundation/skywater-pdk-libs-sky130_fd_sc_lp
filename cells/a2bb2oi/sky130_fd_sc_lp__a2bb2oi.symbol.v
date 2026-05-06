@@ -37,11 +37,11 @@
 (* blackbox *)
 module sky130_fd_sc_lp__a2bb2oi (
     //# {{data|Data Signals}}
-    input  A1_N,
-    input  A2_N,
-    input  B1  ,
-    input  B2  ,
-    output Y
+    input  wire A1_N,
+    input  wire A2_N,
+    input  wire B1  ,
+    input  wire B2  ,
+    output wire Y
 );
 
     // Voltage supply signals

@@ -34,12 +34,12 @@
 (* blackbox *)
 module sky130_fd_sc_lp__sdlclkp (
     //# {{scanchain|Scan Chain}}
-    input  SCE ,
+    input  wire SCE ,
 
     //# {{clocks|Clocking}}
-    input  CLK ,
-    input  GATE,
-    output GCLK
+    input  wire CLK ,
+    input  wire GATE,
+    output wire GCLK
 );
 
     // Voltage supply signals

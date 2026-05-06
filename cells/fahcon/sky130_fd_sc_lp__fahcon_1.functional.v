@@ -39,11 +39,11 @@ module sky130_fd_sc_lp__fahcon_1 (
 );
 
     // Module ports
-    output COUT_N;
-    output SUM   ;
-    input  A     ;
-    input  B     ;
-    input  CI    ;
+    output wire COUT_N;
+    output wire SUM   ;
+    input  wire A     ;
+    input  wire B     ;
+    input  wire CI    ;
 
     // Local signals
     wire xor0_out_SUM ;

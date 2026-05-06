@@ -39,11 +39,11 @@ module sky130_fd_sc_lp__diode_1 (
     VNB
 );
 
-    input DIODE;
-    input VPWR ;
-    input VGND ;
-    input VPB  ;
-    input VNB  ;
+    input wire DIODE;
+    input wire VPWR ;
+    input wire VGND ;
+    input wire VPB  ;
+    input wire VNB  ;
 endmodule
 
 `default_nettype wire

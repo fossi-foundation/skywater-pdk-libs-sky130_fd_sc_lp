@@ -36,8 +36,8 @@ module sky130_fd_sc_lp__conb_0 (
     LO
 );
 
-    output HI;
-    output LO;
+    output wire HI;
+    output wire LO;
 
     // Voltage supply signals
     supply1 VPWR;

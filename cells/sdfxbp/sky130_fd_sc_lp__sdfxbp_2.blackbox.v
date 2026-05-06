@@ -40,12 +40,12 @@ module sky130_fd_sc_lp__sdfxbp_2 (
     SCE
 );
 
-    output Q  ;
-    output Q_N;
-    input  CLK;
-    input  D  ;
-    input  SCD;
-    input  SCE;
+    output wire Q  ;
+    output wire Q_N;
+    input  wire CLK;
+    input  wire D  ;
+    input  wire SCD;
+    input  wire SCE;
 
     // Voltage supply signals
     supply1 VPWR;

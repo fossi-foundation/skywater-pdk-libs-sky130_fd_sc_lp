@@ -38,10 +38,10 @@ module sky130_fd_sc_lp__and3b_4 (
     C
 );
 
-    output X  ;
-    input  A_N;
-    input  B  ;
-    input  C  ;
+    output wire X  ;
+    input  wire A_N;
+    input  wire B  ;
+    input  wire C  ;
 
     // Voltage supply signals
     supply1 VPWR;

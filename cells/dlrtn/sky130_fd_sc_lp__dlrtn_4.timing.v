@@ -41,10 +41,10 @@ module sky130_fd_sc_lp__dlrtn_4 (
 );
 
     // Module ports
-    output Q      ;
-    input  RESET_B;
-    input  D      ;
-    input  GATE_N ;
+    output wire Q      ;
+    input  wire RESET_B;
+    input  wire D      ;
+    input  wire GATE_N ;
 
     // Module supplies
     supply1 VPWR;

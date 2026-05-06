@@ -44,15 +44,15 @@ module sky130_fd_sc_lp__busdrivernovlpsleep_20 (
 );
 
     // Module ports
-    output Z    ;
-    input  A    ;
-    input  TE_B ;
-    input  SLEEP;
-    input  VPWR ;
-    input  VGND ;
-    input  KAPWR;
-    input  VPB  ;
-    input  VNB  ;
+    output wire Z    ;
+    input  wire A    ;
+    input  wire TE_B ;
+    input  wire SLEEP;
+    input  wire VPWR ;
+    input  wire VGND ;
+    input  wire KAPWR;
+    input  wire VPB  ;
+    input  wire VNB  ;
 
     // Local signals
     wire nor_teb_SLEEP;

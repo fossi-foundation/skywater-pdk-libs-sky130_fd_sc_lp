@@ -36,10 +36,10 @@
 (* blackbox *)
 module sky130_fd_sc_lp__nor3b (
     //# {{data|Data Signals}}
-    input  A  ,
-    input  B  ,
-    input  C_N,
-    output Y
+    input  wire A  ,
+    input  wire B  ,
+    input  wire C_N,
+    output wire Y
 );
 
     // Voltage supply signals

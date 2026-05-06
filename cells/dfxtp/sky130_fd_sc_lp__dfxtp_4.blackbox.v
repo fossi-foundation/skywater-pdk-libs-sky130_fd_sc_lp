@@ -37,9 +37,9 @@ module sky130_fd_sc_lp__dfxtp_4 (
     D
 );
 
-    output Q  ;
-    input  CLK;
-    input  D  ;
+    output wire Q  ;
+    input  wire CLK;
+    input  wire D  ;
 
     // Voltage supply signals
     supply1 VPWR;

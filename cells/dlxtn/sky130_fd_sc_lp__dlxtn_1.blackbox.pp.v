@@ -41,13 +41,13 @@ module sky130_fd_sc_lp__dlxtn_1 (
     VNB
 );
 
-    output Q     ;
-    input  D     ;
-    input  GATE_N;
-    input  VPWR  ;
-    input  VGND  ;
-    input  VPB   ;
-    input  VNB   ;
+    output wire Q     ;
+    input  wire D     ;
+    input  wire GATE_N;
+    input  wire VPWR  ;
+    input  wire VGND  ;
+    input  wire VPB   ;
+    input  wire VNB   ;
 endmodule
 
 `default_nettype wire

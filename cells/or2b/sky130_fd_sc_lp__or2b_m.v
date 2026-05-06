@@ -46,13 +46,13 @@ module sky130_fd_sc_lp__or2b_m (
     VNB
 );
 
-    output X   ;
-    input  A   ;
-    input  B_N ;
-    input  VPWR;
-    input  VGND;
-    input  VPB ;
-    input  VNB ;
+    output wire X   ;
+    input  wire A   ;
+    input  wire B_N ;
+    input  wire VPWR;
+    input  wire VGND;
+    input  wire VPB ;
+    input  wire VNB ;
     sky130_fd_sc_lp__or2b base (
         .X(X),
         .A(A),
@@ -77,9 +77,9 @@ module sky130_fd_sc_lp__or2b_m (
     B_N
 );
 
-    output X  ;
-    input  A  ;
-    input  B_N;
+    output wire X  ;
+    input  wire A  ;
+    input  wire B_N;
 
     // Voltage supply signals
     supply1 VPWR;

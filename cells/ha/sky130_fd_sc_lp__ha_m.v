@@ -47,14 +47,14 @@ module sky130_fd_sc_lp__ha_m (
     VNB
 );
 
-    output COUT;
-    output SUM ;
-    input  A   ;
-    input  B   ;
-    input  VPWR;
-    input  VGND;
-    input  VPB ;
-    input  VNB ;
+    output wire COUT;
+    output wire SUM ;
+    input  wire A   ;
+    input  wire B   ;
+    input  wire VPWR;
+    input  wire VGND;
+    input  wire VPB ;
+    input  wire VNB ;
     sky130_fd_sc_lp__ha base (
         .COUT(COUT),
         .SUM(SUM),
@@ -81,10 +81,10 @@ module sky130_fd_sc_lp__ha_m (
     B
 );
 
-    output COUT;
-    output SUM ;
-    input  A   ;
-    input  B   ;
+    output wire COUT;
+    output wire SUM ;
+    input  wire A   ;
+    input  wire B   ;
 
     // Voltage supply signals
     supply1 VPWR;

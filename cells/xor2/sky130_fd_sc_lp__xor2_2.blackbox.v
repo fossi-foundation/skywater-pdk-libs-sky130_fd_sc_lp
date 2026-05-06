@@ -39,9 +39,9 @@ module sky130_fd_sc_lp__xor2_2 (
     B
 );
 
-    output X;
-    input  A;
-    input  B;
+    output wire X;
+    input  wire A;
+    input  wire B;
 
     // Voltage supply signals
     supply1 VPWR;

@@ -34,8 +34,8 @@
 (* blackbox *)
 module sky130_fd_sc_lp__sleep_pargate_plv (
     //# {{power|Power}}
-    input  SLEEP  ,
-    output VIRTPWR
+    input  wire SLEEP  ,
+    output wire VIRTPWR
 );
 
     // Voltage supply signals

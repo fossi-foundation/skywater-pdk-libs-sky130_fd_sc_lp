@@ -36,8 +36,8 @@ module sky130_fd_sc_lp__conb_1 (
 );
 
     // Module ports
-    output HI;
-    output LO;
+    output wire HI;
+    output wire LO;
 
     //       Name       Output
     pullup   pullup0   (HI    );

@@ -37,9 +37,9 @@ module sky130_fd_sc_lp__dlxtn_1 (
     GATE_N
 );
 
-    output Q     ;
-    input  D     ;
-    input  GATE_N;
+    output wire Q     ;
+    input  wire D     ;
+    input  wire GATE_N;
 
     // Voltage supply signals
     supply1 VPWR;

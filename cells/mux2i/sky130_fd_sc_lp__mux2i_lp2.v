@@ -47,14 +47,14 @@ module sky130_fd_sc_lp__mux2i_lp2 (
     VNB
 );
 
-    output Y   ;
-    input  A0  ;
-    input  A1  ;
-    input  S   ;
-    input  VPWR;
-    input  VGND;
-    input  VPB ;
-    input  VNB ;
+    output wire Y   ;
+    input  wire A0  ;
+    input  wire A1  ;
+    input  wire S   ;
+    input  wire VPWR;
+    input  wire VGND;
+    input  wire VPB ;
+    input  wire VNB ;
     sky130_fd_sc_lp__mux2i base (
         .Y(Y),
         .A0(A0),
@@ -81,10 +81,10 @@ module sky130_fd_sc_lp__mux2i_lp2 (
     S
 );
 
-    output Y ;
-    input  A0;
-    input  A1;
-    input  S ;
+    output wire Y ;
+    input  wire A0;
+    input  wire A1;
+    input  wire S ;
 
     // Voltage supply signals
     supply1 VPWR;

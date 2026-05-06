@@ -41,13 +41,13 @@ module sky130_fd_sc_lp__einvp_4 (
     VNB
 );
 
-    output Z   ;
-    input  A   ;
-    input  TE  ;
-    input  VPWR;
-    input  VGND;
-    input  VPB ;
-    input  VNB ;
+    output wire Z   ;
+    input  wire A   ;
+    input  wire TE  ;
+    input  wire VPWR;
+    input  wire VGND;
+    input  wire VPB ;
+    input  wire VNB ;
 endmodule
 
 `default_nettype wire

@@ -37,9 +37,9 @@ module sky130_fd_sc_lp__ebufn_2 (
 );
 
     // Module ports
-    output Z   ;
-    input  A   ;
-    input  TE_B;
+    output wire Z   ;
+    input  wire A   ;
+    input  wire TE_B;
 
     //     Name     Output  Other arguments
     bufif0 bufif00 (Z     , A, TE_B        );

@@ -37,9 +37,9 @@ module sky130_fd_sc_lp__nand2_8 (
 );
 
     // Module ports
-    output Y;
-    input  A;
-    input  B;
+    output wire Y;
+    input  wire A;
+    input  wire B;
 
     // Module supplies
     supply1 VPWR;

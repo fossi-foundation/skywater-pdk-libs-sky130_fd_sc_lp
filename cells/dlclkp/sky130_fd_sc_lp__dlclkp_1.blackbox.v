@@ -37,9 +37,9 @@ module sky130_fd_sc_lp__dlclkp_1 (
     CLK
 );
 
-    output GCLK;
-    input  GATE;
-    input  CLK ;
+    output wire GCLK;
+    input  wire GATE;
+    input  wire CLK ;
 
     // Voltage supply signals
     supply1 VPWR;

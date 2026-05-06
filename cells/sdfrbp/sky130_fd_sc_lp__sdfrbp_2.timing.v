@@ -46,13 +46,13 @@ module sky130_fd_sc_lp__sdfrbp_2 (
 );
 
     // Module ports
-    output Q      ;
-    output Q_N    ;
-    input  CLK    ;
-    input  D      ;
-    input  SCD    ;
-    input  SCE    ;
-    input  RESET_B;
+    output wire Q      ;
+    output wire Q_N    ;
+    input  wire CLK    ;
+    input  wire D      ;
+    input  wire SCD    ;
+    input  wire SCE    ;
+    input  wire RESET_B;
 
     // Module supplies
     supply1 VPWR;

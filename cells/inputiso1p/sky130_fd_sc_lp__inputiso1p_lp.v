@@ -48,13 +48,13 @@ module sky130_fd_sc_lp__inputiso1p_lp (
     VNB
 );
 
-    output X    ;
-    input  A    ;
-    input  SLEEP;
-    input  VPWR ;
-    input  VGND ;
-    input  VPB  ;
-    input  VNB  ;
+    output wire X    ;
+    input  wire A    ;
+    input  wire SLEEP;
+    input  wire VPWR ;
+    input  wire VGND ;
+    input  wire VPB  ;
+    input  wire VNB  ;
     sky130_fd_sc_lp__inputiso1p base (
         .X(X),
         .A(A),
@@ -79,9 +79,9 @@ module sky130_fd_sc_lp__inputiso1p_lp (
     SLEEP
 );
 
-    output X    ;
-    input  A    ;
-    input  SLEEP;
+    output wire X    ;
+    input  wire A    ;
+    input  wire SLEEP;
 
     // Voltage supply signals
     supply1 VPWR;

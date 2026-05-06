@@ -38,10 +38,10 @@ module sky130_fd_sc_lp__decap_12 (
     VNB
 );
 
-    input VPWR;
-    input VGND;
-    input VPB ;
-    input VNB ;
+    input wire VPWR;
+    input wire VGND;
+    input wire VPB ;
+    input wire VNB ;
 endmodule
 
 `default_nettype wire

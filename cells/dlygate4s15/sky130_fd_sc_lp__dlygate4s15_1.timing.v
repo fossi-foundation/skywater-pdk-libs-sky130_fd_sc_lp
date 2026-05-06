@@ -36,8 +36,8 @@ module sky130_fd_sc_lp__dlygate4s15_1 (
 );
 
     // Module ports
-    output X;
-    input  A;
+    output wire X;
+    input  wire A;
 
     // Module supplies
     supply1 VPWR;

@@ -34,23 +34,23 @@
 (* blackbox *)
 module sky130_fd_sc_lp__sregrbp (
     //# {{data|Data Signals}}
-    input  D    ,
-    output Q    ,
-    output Q_N  ,
+    input  wire D    ,
+    output wire Q    ,
+    output wire Q_N  ,
 
     //# {{scanchain|Scan Chain}}
-    input  ASYNC,
-    input  SCD  ,
-    input  SCE  ,
+    input  wire ASYNC,
+    input  wire SCD  ,
+    input  wire SCE  ,
 
     //# {{clocks|Clocking}}
-    input  CLK  ,
+    input  wire CLK  ,
 
     //# {{power|Power}}
-    input  VPB  ,
-    input  VPWR ,
-    input  VGND ,
-    input  VNB
+    input  wire VPB  ,
+    input  wire VPWR ,
+    input  wire VGND ,
+    input  wire VNB
 );
 endmodule
 

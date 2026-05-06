@@ -38,7 +38,7 @@ module sky130_fd_sc_lp__bushold0 (
     inout X    ,
 
     //# {{control|Control Signals}}
-    input RESET
+    input wire RESET
 );
 
     // Voltage supply signals

@@ -34,11 +34,11 @@
 (* blackbox *)
 module sky130_fd_sc_lp__isolatch (
     //# {{data|Data Signals}}
-    input  D      ,
-    output Q      ,
+    input  wire D      ,
+    output wire Q      ,
 
     //# {{power|Power}}
-    input  SLEEP_B
+    input  wire SLEEP_B
 );
 
     // Voltage supply signals

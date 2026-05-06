@@ -46,13 +46,13 @@ module sky130_fd_sc_lp__iso0n_lp2 (
     VNB
 );
 
-    output X      ;
-    input  A      ;
-    input  SLEEP_B;
-    input  VPWR   ;
-    input  KAGND  ;
-    input  VPB    ;
-    input  VNB    ;
+    output wire X      ;
+    input  wire A      ;
+    input  wire SLEEP_B;
+    input  wire VPWR   ;
+    input  wire KAGND  ;
+    input  wire VPB    ;
+    input  wire VNB    ;
     sky130_fd_sc_lp__iso0n base (
         .X(X),
         .A(A),
@@ -77,9 +77,9 @@ module sky130_fd_sc_lp__iso0n_lp2 (
     SLEEP_B
 );
 
-    output X      ;
-    input  A      ;
-    input  SLEEP_B;
+    output wire X      ;
+    input  wire A      ;
+    input  wire SLEEP_B;
 
     // Voltage supply signals
     supply1 VPWR ;

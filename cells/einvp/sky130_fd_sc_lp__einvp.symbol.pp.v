@@ -34,17 +34,17 @@
 (* blackbox *)
 module sky130_fd_sc_lp__einvp (
     //# {{data|Data Signals}}
-    input  A   ,
-    output Z   ,
+    input  wire A   ,
+    output wire Z   ,
 
     //# {{control|Control Signals}}
-    input  TE  ,
+    input  wire TE  ,
 
     //# {{power|Power}}
-    input  VPB ,
-    input  VPWR,
-    input  VGND,
-    input  VNB
+    input  wire VPB ,
+    input  wire VPWR,
+    input  wire VGND,
+    input  wire VNB
 );
 endmodule
 

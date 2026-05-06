@@ -34,21 +34,21 @@
 (* blackbox *)
 module sky130_fd_sc_lp__sdfxtp (
     //# {{data|Data Signals}}
-    input  D   ,
-    output Q   ,
+    input  wire D   ,
+    output wire Q   ,
 
     //# {{scanchain|Scan Chain}}
-    input  SCD ,
-    input  SCE ,
+    input  wire SCD ,
+    input  wire SCE ,
 
     //# {{clocks|Clocking}}
-    input  CLK ,
+    input  wire CLK ,
 
     //# {{power|Power}}
-    input  VPB ,
-    input  VPWR,
-    input  VGND,
-    input  VNB
+    input  wire VPB ,
+    input  wire VPWR,
+    input  wire VGND,
+    input  wire VNB
 );
 endmodule
 

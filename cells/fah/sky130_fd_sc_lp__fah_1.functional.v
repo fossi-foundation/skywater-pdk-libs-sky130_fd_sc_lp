@@ -39,11 +39,11 @@ module sky130_fd_sc_lp__fah_1 (
 );
 
     // Module ports
-    output COUT;
-    output SUM ;
-    input  A   ;
-    input  B   ;
-    input  CI  ;
+    output wire COUT;
+    output wire SUM ;
+    input  wire A   ;
+    input  wire B   ;
+    input  wire CI  ;
 
     // Local signals
     wire xor0_out_SUM;

@@ -42,11 +42,11 @@ module sky130_fd_sc_lp__sleep_sergate_plv_21 (
 );
 
     // Module ports
-    output VIRTPWR;
-    input  SLEEP  ;
-    input  VPWR   ;
-    input  VPB    ;
-    input  VNB    ;
+    output wire VIRTPWR;
+    input  wire SLEEP  ;
+    input  wire VPWR   ;
+    input  wire VPB    ;
+    input  wire VNB    ;
 
     // Local signals
     wire vgnd                   ;

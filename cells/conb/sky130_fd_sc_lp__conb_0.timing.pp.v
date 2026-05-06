@@ -43,12 +43,12 @@ module sky130_fd_sc_lp__conb_0 (
 );
 
     // Module ports
-    output HI  ;
-    output LO  ;
-    input  VPWR;
-    input  VGND;
-    input  VPB ;
-    input  VNB ;
+    output wire HI  ;
+    output wire LO  ;
+    input  wire VPWR;
+    input  wire VGND;
+    input  wire VPB ;
+    input  wire VNB ;
 
     // Local signals
     wire pullup0_out_HI  ;

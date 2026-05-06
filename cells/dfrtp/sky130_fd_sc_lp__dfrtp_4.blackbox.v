@@ -38,10 +38,10 @@ module sky130_fd_sc_lp__dfrtp_4 (
     RESET_B
 );
 
-    output Q      ;
-    input  CLK    ;
-    input  D      ;
-    input  RESET_B;
+    output wire Q      ;
+    input  wire CLK    ;
+    input  wire D      ;
+    input  wire RESET_B;
 
     // Voltage supply signals
     supply1 VPWR;

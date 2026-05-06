@@ -46,13 +46,13 @@ module sky130_fd_sc_lp__nand2b_m (
     VNB
 );
 
-    output Y   ;
-    input  A_N ;
-    input  B   ;
-    input  VPWR;
-    input  VGND;
-    input  VPB ;
-    input  VNB ;
+    output wire Y   ;
+    input  wire A_N ;
+    input  wire B   ;
+    input  wire VPWR;
+    input  wire VGND;
+    input  wire VPB ;
+    input  wire VNB ;
     sky130_fd_sc_lp__nand2b base (
         .Y(Y),
         .A_N(A_N),
@@ -77,9 +77,9 @@ module sky130_fd_sc_lp__nand2b_m (
     B
 );
 
-    output Y  ;
-    input  A_N;
-    input  B  ;
+    output wire Y  ;
+    input  wire A_N;
+    input  wire B  ;
 
     // Voltage supply signals
     supply1 VPWR;

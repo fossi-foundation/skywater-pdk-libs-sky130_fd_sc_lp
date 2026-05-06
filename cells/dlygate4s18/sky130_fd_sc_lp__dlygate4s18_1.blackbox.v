@@ -36,8 +36,8 @@ module sky130_fd_sc_lp__dlygate4s18_1 (
     A
 );
 
-    output X;
-    input  A;
+    output wire X;
+    input  wire A;
 
     // Voltage supply signals
     supply1 VPWR;

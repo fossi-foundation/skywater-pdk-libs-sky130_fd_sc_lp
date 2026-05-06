@@ -37,9 +37,9 @@ module sky130_fd_sc_lp__and2b_2 (
 );
 
     // Module ports
-    output X  ;
-    input  A_N;
-    input  B  ;
+    output wire X  ;
+    input  wire A_N;
+    input  wire B  ;
 
     // Local signals
     wire not0_out  ;

@@ -44,13 +44,13 @@ module sky130_fd_sc_lp__dlxtp_1 (
 );
 
     // Module ports
-    output Q   ;
-    input  D   ;
-    input  GATE;
-    input  VPWR;
-    input  VGND;
-    input  VPB ;
-    input  VNB ;
+    output wire Q   ;
+    input  wire D   ;
+    input  wire GATE;
+    input  wire VPWR;
+    input  wire VGND;
+    input  wire VPB ;
+    input  wire VNB ;
 
     // Local signals
     wire buf_Q       ;

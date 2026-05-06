@@ -44,16 +44,16 @@ module sky130_fd_sc_lp__srdlstp_1 (
     VNB
 );
 
-    output Q      ;
-    input  SET_B  ;
-    input  D      ;
-    input  GATE   ;
-    input  SLEEP_B;
-    input  KAPWR  ;
-    input  VPWR   ;
-    input  VGND   ;
-    input  VPB    ;
-    input  VNB    ;
+    output wire Q      ;
+    input  wire SET_B  ;
+    input  wire D      ;
+    input  wire GATE   ;
+    input  wire SLEEP_B;
+    input  wire KAPWR  ;
+    input  wire VPWR   ;
+    input  wire VGND   ;
+    input  wire VPB    ;
+    input  wire VNB    ;
 endmodule
 
 `default_nettype wire

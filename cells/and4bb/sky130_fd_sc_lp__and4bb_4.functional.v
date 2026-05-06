@@ -39,11 +39,11 @@ module sky130_fd_sc_lp__and4bb_4 (
 );
 
     // Module ports
-    output X  ;
-    input  A_N;
-    input  B_N;
-    input  C  ;
-    input  D  ;
+    output wire X  ;
+    input  wire A_N;
+    input  wire B_N;
+    input  wire C  ;
+    input  wire D  ;
 
     // Local signals
     wire nor0_out  ;

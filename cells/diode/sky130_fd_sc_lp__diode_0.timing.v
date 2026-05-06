@@ -35,7 +35,7 @@ module sky130_fd_sc_lp__diode_0 (
 );
 
     // Module ports
-    input DIODE;
+    input wire DIODE;
 
     // Module supplies
     supply1 VPWR;

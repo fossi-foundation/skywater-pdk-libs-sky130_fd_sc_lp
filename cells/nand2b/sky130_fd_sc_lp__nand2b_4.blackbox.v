@@ -37,9 +37,9 @@ module sky130_fd_sc_lp__nand2b_4 (
     B
 );
 
-    output Y  ;
-    input  A_N;
-    input  B  ;
+    output wire Y  ;
+    input  wire A_N;
+    input  wire B  ;
 
     // Voltage supply signals
     supply1 VPWR;

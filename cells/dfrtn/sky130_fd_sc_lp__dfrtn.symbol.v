@@ -35,14 +35,14 @@
 (* blackbox *)
 module sky130_fd_sc_lp__dfrtn (
     //# {{data|Data Signals}}
-    input  D      ,
-    output Q      ,
+    input  wire D      ,
+    output wire Q      ,
 
     //# {{control|Control Signals}}
-    input  RESET_B,
+    input  wire RESET_B,
 
     //# {{clocks|Clocking}}
-    input  CLK_N
+    input  wire CLK_N
 );
 
     // Voltage supply signals

@@ -38,10 +38,10 @@ module sky130_fd_sc_lp__dfxbp_2 (
     D
 );
 
-    output Q  ;
-    output Q_N;
-    input  CLK;
-    input  D  ;
+    output wire Q  ;
+    output wire Q_N;
+    input  wire CLK;
+    input  wire D  ;
 
     // Voltage supply signals
     supply1 VPWR;

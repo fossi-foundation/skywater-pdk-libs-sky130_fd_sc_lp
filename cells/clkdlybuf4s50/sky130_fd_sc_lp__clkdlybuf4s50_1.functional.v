@@ -37,8 +37,8 @@ module sky130_fd_sc_lp__clkdlybuf4s50_1 (
 );
 
     // Module ports
-    output X;
-    input  A;
+    output wire X;
+    input  wire A;
 
     // Local signals
     wire buf0_out_X;

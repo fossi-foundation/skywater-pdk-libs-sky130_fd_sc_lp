@@ -34,11 +34,11 @@
 (* blackbox *)
 module sky130_fd_sc_lp__einvp (
     //# {{data|Data Signals}}
-    input  A ,
-    output Z ,
+    input  wire A ,
+    output wire Z ,
 
     //# {{control|Control Signals}}
-    input  TE
+    input  wire TE
 );
 
     // Voltage supply signals

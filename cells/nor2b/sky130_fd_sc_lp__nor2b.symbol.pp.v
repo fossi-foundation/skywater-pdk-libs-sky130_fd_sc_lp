@@ -36,15 +36,15 @@
 (* blackbox *)
 module sky130_fd_sc_lp__nor2b (
     //# {{data|Data Signals}}
-    input  A   ,
-    input  B_N ,
-    output Y   ,
+    input  wire A   ,
+    input  wire B_N ,
+    output wire Y   ,
 
     //# {{power|Power}}
-    input  VPB ,
-    input  VPWR,
-    input  VGND,
-    input  VNB
+    input  wire VPB ,
+    input  wire VPWR,
+    input  wire VGND,
+    input  wire VNB
 );
 endmodule
 

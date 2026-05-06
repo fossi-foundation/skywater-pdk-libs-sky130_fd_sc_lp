@@ -41,11 +41,11 @@ module sky130_fd_sc_lp__o22ai_0 (
 );
 
     // Module ports
-    output Y ;
-    input  A1;
-    input  A2;
-    input  B1;
-    input  B2;
+    output wire Y ;
+    input  wire A1;
+    input  wire A2;
+    input  wire B1;
+    input  wire B2;
 
     // Local signals
     wire nor0_out ;

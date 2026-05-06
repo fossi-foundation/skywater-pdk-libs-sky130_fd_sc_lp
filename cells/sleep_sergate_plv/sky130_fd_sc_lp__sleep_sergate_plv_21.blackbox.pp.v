@@ -39,11 +39,11 @@ module sky130_fd_sc_lp__sleep_sergate_plv_21 (
     VNB
 );
 
-    output VIRTPWR;
-    input  SLEEP  ;
-    input  VPWR   ;
-    input  VPB    ;
-    input  VNB    ;
+    output wire VIRTPWR;
+    input  wire SLEEP  ;
+    input  wire VPWR   ;
+    input  wire VPB    ;
+    input  wire VNB    ;
 endmodule
 
 `default_nettype wire

@@ -43,11 +43,11 @@ module sky130_fd_sc_lp__sdfxtp_4 (
 );
 
     // Module ports
-    output Q  ;
-    input  CLK;
-    input  D  ;
-    input  SCD;
-    input  SCE;
+    output wire Q  ;
+    input  wire CLK;
+    input  wire D  ;
+    input  wire SCD;
+    input  wire SCE;
 
     // Local signals
     wire buf_Q  ;

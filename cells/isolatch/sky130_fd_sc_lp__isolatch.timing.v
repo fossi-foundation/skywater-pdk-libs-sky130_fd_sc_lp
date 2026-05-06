@@ -40,9 +40,9 @@ module sky130_fd_sc_lp__isolatch (
 );
 
     // Module ports
-    output Q      ;
-    input  D      ;
-    input  SLEEP_B;
+    output wire Q      ;
+    input  wire D      ;
+    input  wire SLEEP_B;
 
     // Module supplies
     supply1 KAPWR;

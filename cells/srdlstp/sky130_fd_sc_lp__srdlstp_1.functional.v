@@ -42,11 +42,11 @@ module sky130_fd_sc_lp__srdlstp_1 (
 );
 
     // Module ports
-    output Q      ;
-    input  SET_B  ;
-    input  D      ;
-    input  GATE   ;
-    input  SLEEP_B;
+    output wire Q      ;
+    input  wire SET_B  ;
+    input  wire D      ;
+    input  wire GATE   ;
+    input  wire SLEEP_B;
 
     // Local signals
     wire buf_Q;

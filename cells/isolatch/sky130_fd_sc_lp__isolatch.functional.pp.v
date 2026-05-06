@@ -45,14 +45,14 @@ module sky130_fd_sc_lp__isolatch (
 );
 
     // Module ports
-    output Q      ;
-    input  D      ;
-    input  SLEEP_B;
-    input  KAPWR  ;
-    input  VPWR   ;
-    input  VGND   ;
-    input  VPB    ;
-    input  VNB    ;
+    output wire Q      ;
+    input  wire D      ;
+    input  wire SLEEP_B;
+    input  wire KAPWR  ;
+    input  wire VPWR   ;
+    input  wire VGND   ;
+    input  wire VPB    ;
+    input  wire VNB    ;
 
     // Local signals
     wire buf_Q          ;

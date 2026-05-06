@@ -45,14 +45,14 @@ module sky130_fd_sc_lp__ha_1 (
 );
 
     // Module ports
-    output COUT;
-    output SUM ;
-    input  A   ;
-    input  B   ;
-    input  VPWR;
-    input  VGND;
-    input  VPB ;
-    input  VNB ;
+    output wire COUT;
+    output wire SUM ;
+    input  wire A   ;
+    input  wire B   ;
+    input  wire VPWR;
+    input  wire VGND;
+    input  wire VPB ;
+    input  wire VNB ;
 
     // Local signals
     wire and0_out_COUT       ;

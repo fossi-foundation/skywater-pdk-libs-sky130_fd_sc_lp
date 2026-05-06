@@ -51,16 +51,16 @@ module sky130_fd_sc_lp__a221oi_lp (
     VNB
 );
 
-    output Y   ;
-    input  A1  ;
-    input  A2  ;
-    input  B1  ;
-    input  B2  ;
-    input  C1  ;
-    input  VPWR;
-    input  VGND;
-    input  VPB ;
-    input  VNB ;
+    output wire Y   ;
+    input  wire A1  ;
+    input  wire A2  ;
+    input  wire B1  ;
+    input  wire B2  ;
+    input  wire C1  ;
+    input  wire VPWR;
+    input  wire VGND;
+    input  wire VPB ;
+    input  wire VNB ;
     sky130_fd_sc_lp__a221oi base (
         .Y(Y),
         .A1(A1),
@@ -91,12 +91,12 @@ module sky130_fd_sc_lp__a221oi_lp (
     C1
 );
 
-    output Y ;
-    input  A1;
-    input  A2;
-    input  B1;
-    input  B2;
-    input  C1;
+    output wire Y ;
+    input  wire A1;
+    input  wire A2;
+    input  wire B1;
+    input  wire B2;
+    input  wire C1;
 
     // Voltage supply signals
     supply1 VPWR;

@@ -46,12 +46,12 @@ module sky130_fd_sc_lp__srsdfxtp_1 (
 );
 
     // Module ports
-    output Q      ;
-    input  CLK    ;
-    input  D      ;
-    input  SCD    ;
-    input  SCE    ;
-    input  SLEEP_B;
+    output wire Q      ;
+    input  wire CLK    ;
+    input  wire D      ;
+    input  wire SCD    ;
+    input  wire SCE    ;
+    input  wire SLEEP_B;
 
     // Module supplies
     supply1 KAPWR;

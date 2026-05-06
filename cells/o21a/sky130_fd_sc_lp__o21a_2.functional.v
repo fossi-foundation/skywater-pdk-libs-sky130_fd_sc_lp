@@ -40,10 +40,10 @@ module sky130_fd_sc_lp__o21a_2 (
 );
 
     // Module ports
-    output X ;
-    input  A1;
-    input  A2;
-    input  B1;
+    output wire X ;
+    input  wire A1;
+    input  wire A2;
+    input  wire B1;
 
     // Local signals
     wire or0_out   ;

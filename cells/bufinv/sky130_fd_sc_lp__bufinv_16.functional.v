@@ -36,8 +36,8 @@ module sky130_fd_sc_lp__bufinv_16 (
 );
 
     // Module ports
-    output Y;
-    input  A;
+    output wire Y;
+    input  wire A;
 
     // Local signals
     wire not0_out_Y;

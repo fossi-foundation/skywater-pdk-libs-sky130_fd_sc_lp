@@ -37,9 +37,9 @@ module sky130_fd_sc_lp__einvp_1 (
 );
 
     // Module ports
-    output Z ;
-    input  A ;
-    input  TE;
+    output wire Z ;
+    input  wire A ;
+    input  wire TE;
 
     //     Name     Output  Other arguments
     notif1 notif10 (Z     , A, TE          );

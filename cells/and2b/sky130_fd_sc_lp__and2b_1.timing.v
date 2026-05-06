@@ -37,9 +37,9 @@ module sky130_fd_sc_lp__and2b_1 (
 );
 
     // Module ports
-    output X  ;
-    input  A_N;
-    input  B  ;
+    output wire X  ;
+    input  wire A_N;
+    input  wire B  ;
 
     // Module supplies
     supply1 VPWR;
